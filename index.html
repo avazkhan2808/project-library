@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://pro.fontawesome.com/releases/v5.12.0/css/all.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <div class="logo">
+          <h2>Library</h2>
+        </div>
+        <button class="nav-btn">Add</button>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <div class="form-container">
+          <form action="" class="form">
+            <span class="form-close-btn"><i class="fa fa-times"></i></span>
+            <h3 class="form-heading">New Book</h3>
+            <div class="form-group">
+              <input
+                type="text"
+                id="title"
+                placeholder=" "
+                class="form-input"
+              />
+              <label for="title" class="form-label">Title</label>
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                id="author"
+                placeholder=" "
+                class="form-input"
+              />
+              <label for="author" class="form-label">Author</label>
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                id="pages"
+                placeholder=" "
+                class="form-input"
+              />
+              <label for="pages" class="form-label">Pages</label>
+            </div>
+            <div class="form-group form-group-file">
+              <input
+                type="file"
+                class="form-file-input form-input"
+                id="base64"
+              />
+              <label for="base64" class="form-file-label">Choose cover</label>
+            </div>
+            <div class="form-group">
+              <input
+                type="checkbox"
+                id="read"
+                class="form-checkbox form-input"
+              />
+              <label for="read" class="form-checkbox-label"
+                >Did you read this book?</label
+              >
+            </div>
+            <button class="form-btn">Submit</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="cards">
+          <div class="card">
+            <div class="cover">
+              <img src="https://via.placeholder.com/286x180" alt="" />
+            </div>
+            <div class="details">
+              <h3 class="book-title">Pride and Prejudice</h3>
+              <p class="publish-date">Published in: <span>1920</span></p>
+              <p class="pages">Pages: <span>235</span></p>
+              <p class="read">Read</p>
+              <div class="actions">
+                <button class="details-btn details-btn-outlined">Unread</button>
+                <button class="details-btn details-btn-remove">Remove</button>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="cover">
+              <img src="https://via.placeholder.com/286x180" alt="" />
+            </div>
+            <div class="details">
+              <h3 class="book-title">Pride and Prejudice</h3>
+              <p class="publish-date">Published in: <span>1920</span></p>
+              <p class="pages">Pages: <span>235</span></p>
+              <p class="read">Read</p>
+              <div class="actions">
+                <button class="details-btn details-btn-outlined">Unread</button>
+                <button class="details-btn details-btn-remove">Remove</button>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="cover">
+              <img src="https://via.placeholder.com/286x180" alt="" />
+            </div>
+            <div class="details">
+              <h3 class="book-title">Pride and Prejudice</h3>
+              <p class="publish-date">Published in: <span>1920</span></p>
+              <p class="pages">Pages: <span>235</span></p>
+              <p class="read">Read</p>
+              <div class="actions">
+                <button class="details-btn details-btn-outlined">Unread</button>
+                <button class="details-btn details-btn-remove">Remove</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
