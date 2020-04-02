@@ -3,3 +3,4 @@
 * File upload
 * ```javascript
   LocalStorage
+  ```
