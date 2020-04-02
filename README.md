@@ -2,5 +2,4 @@
 ## Features
 * File upload
 * ```javascript
-  ocalStorage
-```
+  LocalStorage```
