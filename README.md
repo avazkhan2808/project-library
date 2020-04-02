@@ -2,4 +2,4 @@
 ## Features
 * File upload
 * ```javascript
-  LocalStorage```
+  LocalStorage
