@@ -4,7 +4,9 @@
   box-sizing: border-box;
   font-family: 'Poppins';
 }
-
+a {
+  text-decoration: none;
+}
 .container {
   padding: 0 10%;
 }
@@ -17,9 +19,10 @@
   align-items: flex-start;
   align-items: center;
 }
-.logo {
+.logo a {
   color: #007bff;
 }
+
 .nav-btn,
 .form-btn {
   border: none;
@@ -102,6 +105,9 @@
   font-weight: 600;
   border-radius: 4px;
   cursor: pointer;
+}
+.form-file-label:hover {
+  background: #1b1e22;
 }
 .form-input {
   border: none;
@@ -195,6 +201,7 @@
   background: transparent;
   border: 1px solid #007bff;
   color: #007bff;
+  margin-right: 10px;
 }
 .details-btn-outlined:hover {
   color: #fff;
